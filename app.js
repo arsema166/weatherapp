@@ -17,7 +17,7 @@ document.getElementById("searchButton").addEventListener("click", function() {
         displayWeatherInfo(data);
       })
       .catch(function (error) {
-        // Handle error
+      
         document.getElementById("errorMessage").style.display = "block";
         console.error("Error fetching data: ", error);
       });
